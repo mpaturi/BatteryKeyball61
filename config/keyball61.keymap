@@ -60,7 +60,7 @@
 &trans           &trans      &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans   &kp F12
 &trans           &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                  &trans  &trans  &trans  &trans  &trans   &trans
 &trans           &trans      &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
-&trans           &trans      &trans        &trans        &trans        &trans        &trans  &trans  &trans                          &trans   &trans
+&kp ENTER        &trans      &trans        &trans        &trans        &trans        &trans  &trans  &trans                          &trans   &trans
             >;
 
             label = "FnSymBT";
@@ -69,11 +69,11 @@
         mouse-layer {
             label = "mousenav";
             bindings = <
-&trans     &trans  &trans          &trans          &trans     &trans                  &trans             &trans             &kp UP_ARROW    &trans           &trans               &trans
-&trans     &trans  &trans          &kp UP_ARROW    &trans     &trans                  &kp PG_UP          &mt LS(HOME) HOME  &kp DOWN_ARROW  &mt LS(END) END  &trans               &trans
-&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                  &mt LS(LEFT) LEFT  &mkp LCLK          &msc SCRL_UP    &mkp RCLK        &mt LS(RIGHT) RIGHT  &trans
-&trans     &trans  &trans          &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN      &trans             &msc SCRL_DOWN  &trans           &trans               &trans
-&kp ENTER  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &trans                                                                 &trans               &trans
+&trans  &trans  &trans          &trans          &trans     &trans                  &trans             &trans             &kp UP_ARROW    &trans           &trans               &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans     &trans                  &kp PG_UP          &mt LS(HOME) HOME  &kp DOWN_ARROW  &mt LS(END) END  &trans               &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                  &mt LS(LEFT) LEFT  &mkp LCLK          &msc SCRL_UP    &mkp RCLK        &mt LS(RIGHT) RIGHT  &trans
+&trans  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN      &trans             &msc SCRL_DOWN  &trans           &trans               &trans
+&trans  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &trans                                                                 &trans               &trans
             >;
         };
     };
